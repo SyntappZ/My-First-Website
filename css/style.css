@@ -1,0 +1,161 @@
+body{
+  font: 15px/1.5 arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color:#DFDFDf;
+
+}
+/* global============= */
+ .container{
+   width: 80%;
+   margin:auto;
+   overflow:hidden;
+ }
+
+ ul{
+  margin: 0;
+  padding: 0;
+ }
+
+ .button_1{
+   height: 30px;
+   background:#2633A6;
+   border:0;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #fff;
+ }
+
+/*header================*/
+
+
+
+header{
+  background: #51A1B3;
+  color: #fff;
+  padding-top:30px;
+  min-height: 70px;
+  border-bottom: #2633A6 3px solid;
+}
+header a{
+  color:#fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li{
+  display: inline;
+  padding: 0 20px 0 20px;
+
+
+}
+header #heading{
+  float: left;
+}
+header #heading h1{
+  margin:0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  font-weight: bold;
+  color:  #2633A6;
+
+
+}
+header a:hover{
+  color: #cccccc;
+  
+}
+/*showcase===========*/
+
+#showcase{
+  min-height: 400px;
+  background: url('../img/background.jpg') no-repeat 0 -200px;
+  text-align: center;
+  color: #fff
+}
+#showcase h1{
+  margin-top:100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+}
+#newsletter{
+  padding: 15px;
+  color:#fff;
+  background:#51A1B3;
+}
+#newsletter h1{
+  float: left;
+
+
+}
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+
+}
+#newsletter input[type="email"]{
+  padding:4px;
+  height: 30px;
+  width: 250px;
+}
+
+/*boxes==============*/
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+
+}
+#boxes .box img{
+  width: 90px;
+
+}
+footer{
+  padding:20px;
+  margin-top: 20px;
+  color:#fff;
+  background-color:#2633A6;
+  text-align: center;
+}
+
+/*media========================*/
+
+@media(max-width:600px){
+   #heading{
+    float:none;
+    font-size:10px;
+    padding:0 0 15px 0;
+  }
+  header nav{
+    font-size:12px;
+    float:none;
+  }
+  #showcase h1{
+    font-size:22px;
+    margin-top:30px;
+  }
+  #showcase p{
+    font-size:16px;
+    line-height:30px;
+    padding-top:40px;
+  }
+  #newsletter h1{
+    font-size:18px;
+    
+    
+  }
+  
+}
